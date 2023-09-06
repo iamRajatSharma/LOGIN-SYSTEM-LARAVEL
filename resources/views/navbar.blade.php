@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-sm bg-dark">
     <div class="container-fluid">
         <ul class="navbar-nav">
+            
             @if (Auth::user())
                 <li class="nav-item">
                     <a class="nav-link text-white" href="{{ route('welcome') }}">Home</a>
